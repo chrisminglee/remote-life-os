@@ -74,9 +74,15 @@ is a morning, not an evening.
 **Ingredients.** Enough to build a shopping list from. Not a recipe. The recipe can live
 anywhere; this log only needs to know what to buy.
 
-**Last cooked.** Updated by the planner after each week. Drives the three-week exclusion.
-`never` is a valid and useful value: it marks the dishes that keep getting proposed and
-keep not happening, which is a signal worth seeing.
+**Last cooked.** Drives the three-week exclusion. **Updated from the picks**, at the start
+of the next weekly run, because a picked dish is the best evidence available that it got
+cooked and most households never volunteer feedback. Waiting for someone to say "we made
+it" means this field stays `unknown` forever and the exclusion never engages.
+
+`never` and `unknown` are different and both useful. `never` marks a dish that keeps
+getting proposed and keeps not happening, which is worth seeing. `unknown` means the log
+was built at setup and nothing is known yet, in which case the dish is not excluded and the
+proposal says the rule did not run.
 
 **Notes.** Where the household's actual knowledge accumulates. Who eats it, what it needs
 alongside, whether it doubles. Over a year this is the most valuable part of the file.

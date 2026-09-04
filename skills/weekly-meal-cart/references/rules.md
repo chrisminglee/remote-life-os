@@ -83,26 +83,64 @@ the proposal instead of reading it.
 
 ## 7. A set-and-forget cook's real dependency is a morning, not an evening
 
-When a slow-cooker night gets picked, two things have to be true, and the second one is
-the one that fails: the ingredients have to actually be in the house, and someone has to
-start it before they leave.
+When a slow-cooker night gets picked, three things have to be true, and it is never the
+recipe that fails:
 
-So the ingredients being bought is part of the pick, not an afterthought. And on the day,
-check that they were bought before cheerfully sending the recipe.
+1. The ingredients are actually in the house. Not on a list. In the house.
+2. The start-by time is still ahead, not behind.
+3. That start-by time comes *after* the shop that brings the ingredients.
+
+So the shopping is part of the pick, not an afterthought. And on the day, check the food
+was bought before cheerfully sending the recipe.
 
 **Why:** in the original system the slow cooker was proposed almost every week and cooked
 once in a month. It did not fail because the recipe was bad. It failed once because the
 night lost out to pizza, and once because the chicken thighs were on the list and never
 actually purchased. The plan was fine. The morning was the problem.
 
+Point three is the one a planner gets wrong on its own. Proposing an 8 AM start for meat
+collected at 9, or a morning start on a night whose groceries arrive two days later, is
+the same failure committed by the system that was built to prevent it.
+
+## 7a. An allergy is absolute, and it extends to takeout
+
+An allergy is the only true filter in the system. It applies to every proposal, and it
+does not stop at the kitchen door: a restaurant whose cross-contact the household has not
+cleared does not get proposed on a night the allergic person eats.
+
+Hold it back and say why in one line. Never drop it silently.
+
+**Why:** the households that most need this system are the ones where dinner is already
+complicated, and an allergy is the most common complication. A planner that names a Thai
+place to a family with a tree-nut child has broken its hardest rule while looking helpful,
+and it will only be caught by the parent who is already doing the checking. Saying "this
+place is off the board until you ask them" is more useful than the option would have been.
+
+## 7b. A soft preference demotes a dish, it does not ban it
+
+"Nobody loves fish" and "one of us does not eat pork" are ranking inputs, not filters. The
+dish drops down the order. It still appears when it is the right answer, and when it does,
+say so on the line: "pork, so one of you sits it out."
+
+**Why:** treating every preference as a ban shrinks the rotation to nothing within a month,
+and treating it as invisible produces a proposal somebody quietly ignores. Naming it on the
+line lets the household make the call with one glance, which is the whole design.
+
 ## 8. Nothing cooked in the last three weeks
 
-Track when each dish was last made, and exclude the recent ones from new proposals.
+Build the exclusion list from the **picks recorded in the last three week files**, since a
+picked dish is the best available evidence of a cooked one. Keep `last cooked` in the
+recipe log updated from the same source.
 
 **Why:** without this, a planner converges on the same four dinners, because those are the
 ones with the best signal. Three weeks is long enough that repetition stops being obvious
 and short enough that the rotation does not sprawl past what the household can actually
 shop for.
+
+**On a household's first weekly run this rule cannot run at all,** because there are no
+week files yet and the starter log says `last cooked: unknown` on every line. That is fine.
+Say it on the did-not-run line and let the rule start working in week two. What is not
+fine is a proposal that implies an exclusion happened when nothing was excluded.
 
 ## 9. Loud errors beat false success
 
@@ -115,15 +153,25 @@ is worse than no planner, because it converts a known unknown into an unknown on
 
 Never report a clean run that was not clean.
 
-## 10. Never invent a menu item, a price, or a recipe the household "already has"
+## 10. Never invent a menu item, a real price, or a recipe the household "already has"
 
 If a meal-delivery menu could not be read, skip that section. Do not guess at what is on
 it this week. If a recipe is being written fresh rather than pulled from the household's
-own log, say so.
+own log, label it **NEW, never made here**, in the log and in the proposal both.
+
+Costs are the one place where a number is still useful without being knowable. Give a
+range, and label it as your estimate: "roughly $95 to $125, my estimate, not a store
+price." That is honest and it still lets a budget flag do its job. A precise figure
+presented as if you had priced the cart is the forbidden version.
 
 **Why:** a fabricated menu item wastes a real order deadline. A recipe presented as "your
 usual" when nobody has made it before quietly erodes the thing that makes the whole system
 work, which is that the person believes what the planner tells them.
+
+Expect this rule to collide with the requirement for a set-and-forget option every week,
+because most households own the equipment and have no dish for it. The label is the
+resolution. Write the dish, mark it NEW, and never let it drift into the log as theirs
+until they have actually made it.
 
 ## 11. Two blocks, and only the near one drives the shopping
 

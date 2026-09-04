@@ -33,11 +33,15 @@ after the rest of the file exists.}
 
 ## Hard rules
 
-- **Allergies:** {list, or "none"}. Never propose anything containing these.
+- **Allergies:** {list, or "none"}. Never propose anything containing these. Extends to
+  takeout: {which of their named places are cleared, which are held back and why}.
 - **Never buy.** The planner builds the list or stages the cart. {Name} checks out.
-- **Weekend and event nights:** {set-and-forget or a named order-in only / rule is off at
-  this household's request}
-- {Any other absolute: no pork, meatless Mondays, whatever they said}
+- **Event nights** (anything blocking 4 to 8 PM): set-and-forget or a named order-in only.
+- **Weekend rule:** Saturday {on/off}, Sunday {on/off}. {Their own reason, in their words.}
+  Record it per day; a split answer is common and it is the most specific thing they said.
+- **Soft preferences** (demote, never ban): {list}. When one gets proposed anyway, say so
+  on the line.
+- {Any other absolute: meatless Mondays, whatever they said}
 
 ## The week's shape
 

@@ -71,15 +71,28 @@ honest way. A from-scratch plan on a busy night dies, and then dinner becomes wh
 fastest at 6:45.
 *Why:* people say yes to weekend cooking and then do not do it. Naming the rule and letting
 them opt out gets a much more honest answer than asking cold.
-*Default:* rule on.
-*Maps to:* Hard rules; whether Saturday and Sunday are auto-constrained.
+
+**Accept a split answer, and record it as a split.** "Saturday is a write-off but Sunday is
+the one night we actually like cooking together" is a common and useful answer. Flattening
+it to a single on or off throws away the most specific thing they told you. The rule is
+per-day.
+*Default:* on for both days.
+*Maps to:* Hard rules; which weekend days are auto-constrained.
 
 **B4. What set-and-forget equipment do you own? Slow cooker, pressure cooker, sheet pan,
-none of the above?**
-*Why:* this decides what a constrained night is actually allowed to be. Without any of it,
+none of the above? And name one thing you already make in it.**
+*Why:* the first half decides what a constrained night is allowed to be. Without any of it,
 "set and forget" becomes make-ahead or assembly, and the proposal has to say so.
-*Default:* whatever they name; if nothing, use make-ahead and cold assembly.
-*Maps to:* the Week's shape section; the required set-and-forget option in every block.
+
+**The second half matters more than it looks.** Every weekly run needs at least one
+set-and-forget option, and inventing a dish and presenting it as one of theirs is
+forbidden. If they cannot name one, that is a real finding, not a failed question: their
+first proposals will contain dishes marked NEW, never made here, and they should hear that
+now rather than be surprised by it on Thursday. Most people own a slow cooker and use it
+about six times a year, so expect this answer to be empty and do not push.
+*Default:* whatever they name; if nothing, use make-ahead and cold assembly, and warn them.
+*Maps to:* the Week's shape section; the required set-and-forget option in every block; the
+NEW label on the dishes you write for them.
 
 ---
 
@@ -109,6 +122,17 @@ household that will not name a takeout place will get a planner that quietly pre
 takeout does not exist, and then they will order takeout anyway.
 *Default:* none, required, but one is enough.
 *Maps to:* Food sources; every constrained night's second option.
+
+**C3a. Ask this only if Batch A turned up a serious allergy: which of those places have you
+already cleared for it?**
+*Why:* the allergy filter is absolute, and a restaurant kitchen is exactly where you cannot
+verify an ingredient. A planner that names a Thai place to a household with a tree-nut
+child has broken its own hardest rule while looking helpful. Cleared places stay in
+rotation. Uncleared ones are held back from any night the allergic person eats, with the
+reason said out loud, so it reads as a deliberate hold and not an oversight.
+*Default:* none cleared, which means the constrained nights lean on the cleared places and
+on set-and-forget cooking until they ask.
+*Maps to:* Hard rules; which order-in defaults are available on which nights.
 
 **C4. What do you buy every single week regardless? And is there a shared list the
 household adds to?**

@@ -25,19 +25,30 @@ NEXT WEEK — {Mon M/D} onward (provisional)
 {Then the following Thu–Sun, 2 options per night, marked PROVISIONAL}
 
 SHOPPING LIST — buy by {day}
+This covers every cook option above. Lines drop once you pick.
 {Store}: {item}, {item}, {item}
 Staples: {item}, {item}
 From your shared list: {item}, {item}
-{Budget flag line, if over}
+{Rough estimate $X to $Y. My estimate, not a store price. {Under/over} your ${N} flag.}
 
 Reply like: "{Thu A, Fri B, Sat A, Sun B}" or "{1, 3, 4}".
-Did not run: {none / the specific thing that failed}
+Did not run: {none / the specific things that failed}
 ```
+
+### The two lists, and why there are two
+
+The list inside the proposal is **provisional**. It has to cover every cook option you
+offered, so it over-lists by design, and the label says so. The **final** list comes after
+the picks, cut down to what they actually chose.
+
+Never stage a cart from the provisional list.
 
 ### Rules for the proposal itself
 
-**The deadline in the header is real.** If there is a delivery service with a cutoff, that
-is the deadline. If there is not, it is the day before the shopping happens.
+**The deadline in the header is real.** It is whichever comes first: a delivery service's
+cutoff, or the day before the shopping happens. When nights inside the near block fall
+before that deadline, they need answering sooner, so say it in the header: "picks by Friday
+6 PM, and Thursday and Friday need an answer today."
 
 **Two options per open night, and never more.** Three is a decision, two is a pick.
 
@@ -51,10 +62,16 @@ you read their week.
 **Closed nights are confirmed, not offered.** `{Fri M/D} — birthday dinner at your
 mother's (already set)`.
 
-**The structural note goes at the top, and only when it earns its place.** If every night
-in the near block is constrained, say so in one line: "Every night this week has something
-in it, so this is a slow-cooker and takeout week." Without that line, four order-in options
-read like the planner gave up. With it, they read like an accurate week.
+**The structural note goes at the top, and only when it earns its place.** If most of the
+near block is constrained, or the only open night falls before the shop, say so in one
+line: "three of these four nights have something in them, and the one that doesn't lands
+before your Saturday pickup." Without that line, four order-in options read like the
+planner gave up. With it, they read like an accurate week. Describe the week you actually
+have; do not claim every night is booked when one is clear.
+
+**Contingent options are allowed, and they do not count as a third option.** "Sunday A is
+Saturday's leftovers, if you take Saturday A" is one option with a condition. State the
+fallback inline rather than adding a third line.
 
 **The "did not run" line is never omitted.** If everything worked, it says `none`. That
 way its absence is noticeable and its presence is trusted.
@@ -93,8 +110,10 @@ three questions is a reply that stops the ritual.
 
 ## The week file
 
-One per weekly run, at `{path}/weeks/YYYY-MM-DD.md`, keyed to the Monday of the week being
-planned.
+One per weekly run, at `{path}/weeks/YYYY-MM-DD.md`, **keyed to the first day of the near
+block**, which is the day the run happened. A Thursday run plans Thursday through Sunday in
+detail and next week in outline, so it files under that Thursday. Keying it to a Monday
+would file the half that drives the shopping under a week it does not belong to.
 
 ```markdown
 # Week of {Monday date}
