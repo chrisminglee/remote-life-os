@@ -65,6 +65,13 @@ Never add an item nobody chose in order to clear a minimum.
 **The cutoff is the deadline in the proposal header.** Missing it costs a week, so it goes
 at the top, not the bottom.
 
+**Two boxes are usually in flight at once, and confusing them wrecks a week.** With a
+menu that posts one day, a cutoff a few days later and delivery after that, the box
+covering the *near* block was ordered last cycle, and the order you are building now feeds
+the *far* block. Say which is which. And you cannot verify last cycle's order was actually
+placed, so name that assumption: if no box arrives, the nights it was covering are suddenly
+open and the household needs to know before those nights, not on them.
+
 ## The shared household list
 
 If the household keeps one, read it every run and fold its items into the shopping list

@@ -36,10 +36,12 @@ Modes are inferred from state, not typed by the user. Check in this order.
 | The message is feedback about a meal already eaten: "the kids hated it", "that worked", "never again" | **learn** |
 
 **One check before setup.** If this environment already has a personal meal-planning
-command or skill of its own, one that names actual stores, services or accounts, that one
-knows the household's real setup and this one does not. Say so in a line and ask which
-they want. Do not refuse silently, and do not assume a command called `meal-plan` is
-necessarily the author's rather than the user's own.
+command or skill of its own, one wired to actual stores and accounts, that one knows the
+household's real setup and this one does not. Say that such a command exists and ask which
+they want. Do not name the stores, services or accounts it is wired to; in a shared
+environment those are not yours to read out. Do not refuse silently either, and do not
+assume a command called `meal-plan` belongs to this skill's author rather than to the
+person in front of you.
 
 ---
 
@@ -114,10 +116,23 @@ thing they will do.
    pasted or a page you can actually fetch. If you cannot read it, say so and skip the
    section. Never invent a menu item. See `references/carts-and-lists.md`.
 
-4. **Build the near block:** tonight through the end of the coming weekend. Two options per
+4. **Build the near block:** tonight through the end of the coming weekend. This is four
+   days on a Thursday ritual and eight on a Sunday one, and both are right. Two options per
    open night. Constrained nights get a set-and-forget option and a named order-in, never a
    from-scratch evening cook. At least one set-and-forget in the block. Nothing on the
    no-repeat list. A night they already closed gets confirmed, not re-offered.
+
+   **When the allergy filter empties the order-in slot,** which happens whenever a
+   household has a serious allergy and no cleared restaurants, the constrained nights fall
+   back to set-and-forget cooking, assembly, make-ahead and leftovers. That is a real and
+   correct answer, not a failure. Say once, in its own short block, which places are held
+   and why, name what the hold is costing them this week, and give the one-sentence fix.
+   Never quietly propose an uncleared restaurant to fill the slot, and never quietly drop
+   the slot without explaining it.
+
+   **If tonight is only an hour or two away,** which happens on any evening ritual, treat
+   night one the way tonight mode does. One option, not two, and make it something reachable
+   from what is in the house or one stop away.
 
    **Two timing checks that decide whether an option is real.** Run both on every night
    before you print it.
@@ -163,8 +178,10 @@ Parse generously. Never bounce a reply back for reformatting. Bare numbers inher
 quantity you proposed. "Sat B" is the second Saturday option. "Fri pizza" is their named
 pizza place. "Skip carrots" drops an item. A misspelled restaurant matches their defaults.
 
-**Sum the picks against any minimum or box size before you build.** Short or over, say so
-and ask. Never add an item nobody chose in order to clear a minimum.
+**Sum the picks against any minimum or fixed box size before you build.** Under a minimum
+is a real problem: say by how much and offer two additions, but never add one yourself.
+Over a minimum is fine and needs no comment. Over a fixed box size is a real problem and
+does need one.
 
 **Ask at most one clarifying question.** If two readings are both plausible, take the more
 conservative one, build it, and name the assumption.

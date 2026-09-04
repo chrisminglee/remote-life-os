@@ -13,7 +13,7 @@ DINNERS — week of {Thu M/D} (reply with picks by {deadline})
 
 {Structural note, only when there is one. See below.}
 
-THIS {THU}–{SUN} — your plan for the next four days
+THIS {today}–{end of the coming weekend} — your plan for the next {N} days
 {Thu M/D} ({calendar flag, if any}) — A) {option}  B) {option}
 {Fri M/D} (clear) — A) {option}  B) {option}
 {Sat M/D} (weekend rule) — A) {set-and-forget, start by {time}}  B) {named order-in}
@@ -116,7 +116,7 @@ detail and next week in outline, so it files under that Thursday. Keying it to a
 would file the half that drives the shopping under a week it does not belong to.
 
 ```markdown
-# Week of {Monday date}
+# Week of {first day of the near block}
 
 ## Runs
 - {timestamp} proposal sent

@@ -175,8 +175,14 @@ until they have actually made it.
 
 ## 11. Two blocks, and only the near one drives the shopping
 
-Propose the next four days in detail, and the following week in outline. Buy groceries only
+The **near block runs from tonight through the end of the coming weekend**, and it gets
+detail. Everything after that is the far block, and it gets an outline. Buy groceries only
 for the near block.
+
+Note that the near block is not a fixed length. A Thursday ritual makes it four days; a
+Sunday ritual makes it eight. Both are correct. What defines it is the weekend boundary,
+because a household plans in weeks and the weekend is where a week's cooking capacity
+actually sits.
 
 **Why:** food bought ten days early is food thrown away. Splitting the horizon lets the
 person see far enough ahead to catch a bad week, without committing produce to it. The far

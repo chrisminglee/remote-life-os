@@ -105,6 +105,12 @@ session reads to understand this household in five seconds. Write it concretely:
 delivery covers Monday through Wednesday, we cook Thursday and Friday, and the weekend is
 slow cooker or takeout" beats "we plan our meals weekly."
 
+**Keep perishable facts out of it.** Specific nights, a specific store, a specific practice
+schedule: those live in the Calendar and Food sources sections, where learn mode is allowed
+to update them. The paragraph belongs to the household and never gets rewritten, so
+anything inside it that can change will eventually be wrong and nothing will be able to fix
+it. Describe the shape of their week, not this month's version of it.
+
 **Put the allergy in two places** if there is one: the Hard rules section, and a note next
 to the affected recipes in `recipes.md`. Redundancy is correct here.
 
